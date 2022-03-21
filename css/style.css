@@ -10493,6 +10493,20 @@ faq-info p{
       display: none !important;
     }
 
+    .intro-title {
+        font-size: 30px;
+    }
+    .underscore {
+        border-bottom: 4px solid #00dc82;
+    }
+    .lead {
+        font-size: 20px;
+        line-height: 1.4;
+        color: #3b485e;
+        font-weight: 400;
+        font-family: "ProximaNovaA-Regular",sans-serif;
+        margin-bottom: 30px;
+    }
 
 
 
