@@ -379,7 +379,7 @@
         <!-- Main title -->
         <div class="main-title text-center">
             <h1>Get In Touch</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+            <p>Please use this form to contact us and we will get back to you as soon as possible!</p>
         </div>
         <div class="bg-white">
             <div class="row g-0">
@@ -391,7 +391,12 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group name">
-                                        <input type="text" name="name" class="form-control" placeholder="Name" aria-label="Full Name">
+                                        <input type="text" name="name" class="form-control" placeholder="First Name" aria-label="First Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group number">
+                                        <input type="text" name="name" class="form-control" placeholder="Last Name" aria-label="Last Name">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -402,11 +407,6 @@
                                 <div class="col-md-6">
                                     <div class="form-group subject">
                                         <input type="text" name="subject" class="form-control" placeholder="Subject" aria-label="Subject">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group number">
-                                        <input type="text" name="phone" class="form-control" placeholder="Phone" aria-label="Phone Number">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
@@ -427,7 +427,7 @@
                 <div class="col-lg-5 col-md-12 col-sm-12 col-pad2">
                     <!-- Contact details start -->
                     <div class="contact-details">
-                        <h3>Opening Hours</h3>
+                        <h3>Auto Benz Details</h3>
                         <div class="ci-box d-flex">
                             <div class="icon">
                                 <i class="fa fa-map-marker"></i>
@@ -752,8 +752,8 @@
 <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4omYJlOaP814WDcCG8eubXcbhB-44Uac"></script>
 <script>
     function LoadMap(propertes) {
-        var defaultLat = 40.7110411;
-        var defaultLng = -74.0110326;
+        var defaultLat = 46.198595136652344;
+        var defaultLng = 6.1512867362297365;
         var mapOptions = {
             center: new google.maps.LatLng(defaultLat, defaultLng),
             zoom: 15,
@@ -786,7 +786,7 @@
         };
         var map = new google.maps.Map(document.getElementById("map"), mapOptions);
         var infoWindow = new google.maps.InfoWindow();
-        var myLatlng = new google.maps.LatLng(40.7110411, -74.0110326);
+        var myLatlng = new google.maps.LatLng(46.198595136652344, 6.1512867362297365);
 
         var marker = new google.maps.Marker({
             position: myLatlng,
@@ -797,11 +797,10 @@
                 infoWindow.setContent("" +
                     "<div class='map-properties contact-map-content'>" +
                     "<div class='map-content'>" +
-                    "<p class='address'>20-21 Kathal St. Tampa City, FL</p>" +
+                    "<p class='address'><i class='flaticon-pin'></i>20 Rue Charles-Strum 1206 GENÈVE</p>" +
                     "<ul class='map-properties-list'> " +
-                    "<li><i class='flaticon-phone'></i>  ++41 58 2551 177</li> " +
-                    "<li><i class='flaticon-phone'></i>  info@autobenz.com</li> " +
-                    "<li><a href='index.html'><i class='fa fa-globe'></i>  http://www.example.com</li></a> " +
+                    "<li><i class='flaticon-mail'></i>  info@autobenz.com</li> " +
+                    "<li><a href='index.html'><i class='fa fa-globe'></i>  https://www.autobenz.ch</li></a> " +
                     "</ul>" +
                     "</div>" +
                     "</div>");
