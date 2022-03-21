@@ -10507,6 +10507,12 @@ faq-info p{
         font-family: "ProximaNovaA-Regular",sans-serif;
         margin-bottom: 30px;
     }
+    @media (max-device-width: 768px) {
+        .pc-sm-none {
+            display: none !important;
+          }
+    }
+
 
 
 
