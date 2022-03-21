@@ -6791,6 +6791,18 @@ footer:before {
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
+.hero-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 5em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: white;
+
+}
 
 .sub-banner .breadcrumb-area {
     letter-spacing: 1px;
@@ -10079,7 +10091,7 @@ faq-info p{
     }
 
     .main-header {
-        box-shadow: 0 0 8px 0 rgba(0,0,0,.12);
+        box-shadow: 0 0 8px 0 rgb(3 64 74);
     }
 
     .search-area-2 .form-group {
@@ -10471,10 +10483,15 @@ faq-info p{
         -moz-transition: 0.5s;
         -ms-transition: 0.5s;
         transition: 0.5s;
-        box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+        box-shadow: 0 0 8px 0 rgb(3 64 74);
         top: 0px !important;
     }
 }
+
+@media(max-width: 1000px) {
+    .dd-sm-none {
+      display: none !important;
+    }
 
 
 
