@@ -2595,6 +2595,16 @@ input[type=checkbox]:checked + label:before {
     right: 20px;
     z-index: 999;
 }
+.price-box-del {
+    font-size: 32px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 40px;
+    top: 0px;
+    right: 20px;
+    z-index: 999;
+    color: red;
+}
 
 .price-box-2 sup {
     font-size: 18px;
@@ -10495,6 +10505,7 @@ faq-info p{
 
     .intro-title {
         font-size: 30px;
+        text-align: center;
     }
     .underscore {
         border-bottom: 4px solid #00dc82;
