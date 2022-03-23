@@ -2866,7 +2866,7 @@ input[type=checkbox]:checked + label:before {
     font-size: 32px;
     font-weight: 700;
     position: absolute;
-    bottom: 75%;
+    bottom: 65%;
     right: 20px;
     z-index: 999;
     color: #2f252b;
