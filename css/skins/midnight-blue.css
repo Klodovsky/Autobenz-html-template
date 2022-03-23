@@ -382,6 +382,7 @@
 
 input[type=checkbox]:checked + label:before {
     color:#e43498!important;
+    display: none;
 }
 
 .advantages-box-3 i{

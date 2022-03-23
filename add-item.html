@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-    <title>AUTOBENZ - Auto</title>
+    <title>AUTOBENZ - AUTO</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
 
@@ -42,6 +42,7 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script  src="js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script  src="js/ie-emulation-modes-warning.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -266,9 +267,22 @@
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group message">
-                                        <textarea  class="form-control" name="message" placeholder="Write message" aria-label="Write message"></textarea>
+                                        <div class="form-group" style=" margin-bottom: 12px;"> I would like to add a : </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                              Vehicle
+                                            </label>
+                                          </div>
+                                          <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                              Property
+                                            </label>
+                                          </div>
                                     </div>
                                 </div>
+                                <div class="g-recaptcha" data-sitekey="6Lc43AUfAAAAACU-7SFF7Uq_1YQMED9qG_Qh7a15"></div>
                                 <div class="col-md-12">
                                     <div class="send-btn text-center">
                                         <button type="submit" class="btn-6">Send Message</button>
@@ -304,34 +318,6 @@
                                 </p>
                             </div>
                         </div>
-                        <h3>Follow Us</h3>
-                        <ul class="social-list clearfix">
-                            <li>
-                                <a href="#" class="facebook-bg">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="twitter-bg">
-                                    <i class="fa fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="linkedin-bg">
-                                    <i class="fa fa-linkedin"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="google-bg">
-                                    <i class="fa fa-google-plus"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="rss-bg">
-                                    <i class="fa fa-rss"></i>
-                                </a>
-                            </li>
-                        </ul>
                     </div>
                     <!-- Contact details end -->
                 </div>
@@ -595,7 +581,7 @@
 <!-- Custom javascript -->
 <script  src="js/ie10-viewport-bug-workaround.js"></script>
 
-<script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4omYJlOaP814WDcCG8eubXcbhB-44Uac"></script>
+<script  src="https://maps.googleapis.com/maps/api/js?key=6Lc43AUfAAAAACU-7SFF7Uq_1YQMED9qG_Qh7a15"></script>
 <script>
     function LoadMap(propertes) {
         var defaultLat = 46.198595136652344;
@@ -654,8 +640,13 @@
             });
         })(marker);
     }
-    LoadMap();
+    LoadMap(); 
 </script>
+<script type="text/javascript">
+    var onloadCallback = function() {
+      alert("grecaptcha is ready!");
+    };
+  </script>
 
 </body>
 </html>
