@@ -10787,14 +10787,18 @@ faq-info p{
         transform: rotate(0deg);
     }
 }
+
 .pinky {
-        background-position: left 0% bottom 10%;
-        background-size: 95% 16%;
-        background-repeat: repeat-x;
-        background-position: left 0% bottom 0%;
-        margin-bottom: 16.5rem;
-        background-image: repeating-linear-gradient(135deg, rgb(255, 102, 204) 0px, rgb(255, 96, 226) 45px,rgb(255, 124, 232) 45px, rgb(255, 124, 232) 76px,rgb(255, 69, 221) 76px, rgb(255, 69, 221) 114px,rgb(255, 151, 237) 114px, rgb(255, 151, 237) 127px,rgb(255, 206, 248) 127px, rgb(255, 206, 248) 139px,rgb(255, 179, 243) 139px, rgb(255, 179, 243) 170px);
-  }
+    font-weight: 900;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, sans-serif;
+    letter-spacing: 2px;
+    background-size: 95% 12%;
+    background-repeat: repeat-x;
+    background-position: left 0% bottom 0%;
+    margin-bottom: 16.5rem;
+    background-image: repeating-linear-gradient(321deg, rgb(243 0 162) 0px, rgb(255 208 246) 45px,rgb(255 0 210) 45px, rgb(255 195 245) 76px,rgb(255, 69, 221) 76px, rgb(255, 69, 221) 114px,rgb(255 239 252) 114px, hsl(311deg 100% 57%) 127px,rgb(241 231 231) 127px, rgb(239 223 223) 139px,rgb(255 249 255) 139px, rgb(226 216 216) 170px);
+}}
   
   @media (max-width: 767px) {
     .hidden-mobile {
