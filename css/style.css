@@ -10814,3 +10814,8 @@ faq-info p{
     width: 69px;
     height: 50px;
 }
+.btntext
+{
+    margin-left: auto;
+    margin-right: auto;
+}
