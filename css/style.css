@@ -10819,3 +10819,31 @@ faq-info p{
     margin-left: auto;
     margin-right: auto;
 }
+.inventory-widget {
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    padding: 40px 25px;
+    margin-bottom: 30px;
+}
+.inventory-widget:last-child {
+    margin-bottom: 0;
+}
+.inv-widget-title .title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.inv-widget-title .title::after {
+    content: "";
+    display: block;
+    background-image: url(../img/images/latest_car_line.png);
+    width: 57px;
+    height: 5px;
+    margin-top: 9px;
+}
+.advisor-wrap {
+    display: flex;
+    align-items: center;
+}
