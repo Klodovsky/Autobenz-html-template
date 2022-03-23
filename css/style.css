@@ -2596,8 +2596,8 @@ input[type=checkbox]:checked + label:before {
     z-index: 999;
 }
 .price-box-del {
-    font-size: 32px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 600;
     position: absolute;
     bottom: 40px;
     top: 0px;
@@ -2610,7 +2610,7 @@ input[type=checkbox]:checked + label:before {
     font-size: 18px;
     position: relative;
     top: -15px;
-    color: #fff;
+    color: #2f252b;
     font-weight: 600;
     opacity: 0.9;
 }
@@ -2756,7 +2756,7 @@ input[type=checkbox]:checked + label:before {
 
 .car-box-2:hover .car-thumbnail:before {
     background-image: linear-gradient(
-            358deg, #e43498 8%, #00dc824d 82%)!important;
+            358deg, #b53389 8%, #00dc824d 82%)!important;
     opacity: .5;
 }
 
@@ -2866,13 +2866,14 @@ input[type=checkbox]:checked + label:before {
     font-size: 32px;
     font-weight: 700;
     position: absolute;
-    bottom: 10px;
+    bottom: 75%;
     right: 20px;
     z-index: 999;
+    color: #2f252b;
 }
 
 .car-box-3:hover .car-thumbnail:before {
-    background-image: linear-gradient(358deg, #e43498 8%, #00dc824d 82%)!important;
+    background-image: linear-gradient(358deg, #b53389 8%, #00dc824d 82%)!important;
     opacity: .5;
 }
 
@@ -3772,7 +3773,7 @@ input[type=checkbox]:checked + label:before {
 }
 
 .team-1 .team-social .team-overlay, .team-sub-line:before {
-    background-image: linear-gradient(100deg, #e43498 8%, #00dc824d 82%)!important;
+    background-image: linear-gradient(100deg, #b53389 8%, #00dc824d 82%)!important;
     opacity: .5;
 }
 
@@ -3933,7 +3934,7 @@ input[type=checkbox]:checked + label:before {
 }
 
 .team-2 .team-social .team-overlay, .team-sub-line:before {
-    background-image: linear-gradient(100deg, #e43498 8%, #00dc824d 82%)!important;
+    background-image: linear-gradient(100deg, #b53389 8%, #00dc824d 82%)!important;
     opacity: .5;
 }
 
@@ -3992,7 +3993,7 @@ input[type=checkbox]:checked + label:before {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: linear-gradient(358deg, #e43498 8%, #00dc824d 82%)!important;
+    background-image: linear-gradient(358deg, #b53389 8%, #00dc824d 82%)!important;
     opacity: .5;
 }
 
@@ -4547,7 +4548,7 @@ input[type=checkbox]:checked + label:before {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: linear-gradient(358deg, #e43498 8%, #00dc824d 82%)!important;
+    background-image: linear-gradient(358deg, #b53389 8%, #00dc824d 82%)!important;
     opacity: .5;
 }
 
@@ -8608,7 +8609,7 @@ faq-info p{
 }
 
 .red-plate {
-    background: #e43498
+    background: #b53389
 }
 
 .green-light-plate {
@@ -8636,7 +8637,7 @@ faq-info p{
 }
 
 .midnight-blue-plate {
-    background: #e43498
+    background: #b53389
 }
 
 .brown-plate {
@@ -10508,7 +10509,7 @@ faq-info p{
         text-align: center;
     }
     .underscore {
-        border-bottom: 4px solid #e43498;
+        border-bottom: 4px solid #b53389;
     }
     .lead {
         font-size: 20px;
@@ -10534,7 +10535,7 @@ faq-info p{
     top: 0;
     right: 0;
     bottom: 0;
-    background: #e43498;
+    background: #b53389;
     z-index: 999999;
     overflow: hidden;
 }
