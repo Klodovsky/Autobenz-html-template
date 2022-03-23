@@ -59,7 +59,7 @@ strong {
 }
 
 span {
-    color: #00dc82;
+    color: #e43498;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -2756,7 +2756,7 @@ input[type=checkbox]:checked + label:before {
 
 .car-box-2:hover .car-thumbnail:before {
     background-image: linear-gradient(
-            358deg, #00dc82 8%, #00dc824d 82%)!important;
+            358deg, #e43498 8%, #00dc824d 82%)!important;
     opacity: .5;
 }
 
@@ -2872,7 +2872,7 @@ input[type=checkbox]:checked + label:before {
 }
 
 .car-box-3:hover .car-thumbnail:before {
-    background-image: linear-gradient(358deg, #00dc82 8%, #00dc824d 82%)!important;
+    background-image: linear-gradient(358deg, #e43498 8%, #00dc824d 82%)!important;
     opacity: .5;
 }
 
@@ -3772,7 +3772,7 @@ input[type=checkbox]:checked + label:before {
 }
 
 .team-1 .team-social .team-overlay, .team-sub-line:before {
-    background-image: linear-gradient(100deg, #00dc82 8%, #00dc824d 82%)!important;
+    background-image: linear-gradient(100deg, #e43498 8%, #00dc824d 82%)!important;
     opacity: .5;
 }
 
@@ -3933,7 +3933,7 @@ input[type=checkbox]:checked + label:before {
 }
 
 .team-2 .team-social .team-overlay, .team-sub-line:before {
-    background-image: linear-gradient(100deg, #00dc82 8%, #00dc824d 82%)!important;
+    background-image: linear-gradient(100deg, #e43498 8%, #00dc824d 82%)!important;
     opacity: .5;
 }
 
@@ -3992,7 +3992,7 @@ input[type=checkbox]:checked + label:before {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: linear-gradient(358deg, #00dc82 8%, #00dc824d 82%)!important;
+    background-image: linear-gradient(358deg, #e43498 8%, #00dc824d 82%)!important;
     opacity: .5;
 }
 
@@ -4547,7 +4547,7 @@ input[type=checkbox]:checked + label:before {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: linear-gradient(358deg, #00dc82 8%, #00dc824d 82%)!important;
+    background-image: linear-gradient(358deg, #e43498 8%, #00dc824d 82%)!important;
     opacity: .5;
 }
 
@@ -5730,7 +5730,7 @@ footer:before {
 }
 
 .active-view-btn {
-    background: #e4e4e4;
+    background: #ff00d0;
     border: solid 2px #e4e4e4;
     width: 45px;
     height: 45px;
@@ -6792,7 +6792,7 @@ footer:before {
 
 /** Sub Banner start **/
 .sub-banner {
-    background: rgba(0, 0, 0, 0.04) url(../img/pexels-vlad-alexandru-popa-1461887.jpg) top left repeat;
+    background: rgba(0, 0, 0, 0.04) url(../img/pexels-svh-2920064.jpg) top left repeat;
     background-size: cover;
     height: 360px;
     background-position: center center;
@@ -8608,7 +8608,7 @@ faq-info p{
 }
 
 .red-plate {
-    background: #00dc82
+    background: #e43498
 }
 
 .green-light-plate {
@@ -8636,7 +8636,7 @@ faq-info p{
 }
 
 .midnight-blue-plate {
-    background: #00dc82
+    background: #e43498
 }
 
 .brown-plate {
@@ -8951,7 +8951,7 @@ faq-info p{
     }
 
     .sticky-header .navbar-expand-lg .navbar-nav .nav-link {
-        color: #fff;
+        color: azure;
     }
 
     .sticky-header .open-offcanvas {
@@ -10508,7 +10508,7 @@ faq-info p{
         text-align: center;
     }
     .underscore {
-        border-bottom: 4px solid #00dc82;
+        border-bottom: 4px solid #e43498;
     }
     .lead {
         font-size: 20px;
@@ -10516,7 +10516,8 @@ faq-info p{
         color: #3b485e;
         font-weight: 400;
         font-family: "ProximaNovaA-Regular",sans-serif;
-        margin-bottom: 30px;
+        text-align: center;
+        margin-bottom: -26px;
     }
   
 }
@@ -10533,7 +10534,7 @@ faq-info p{
     top: 0;
     right: 0;
     bottom: 0;
-    background: #1dc07d;
+    background: #e43498;
     z-index: 999999;
     overflow: hidden;
 }
@@ -10786,4 +10787,25 @@ faq-info p{
         transform: rotate(0deg);
     }
 }
-
+.pinky {
+        background-position: left 0% bottom 10%;
+        background-size: 95% 16%;
+        background-repeat: repeat-x;
+        background-position: left 0% bottom 0%;
+        margin-bottom: 16.5rem;
+        background-image: repeating-linear-gradient(135deg, rgb(255, 102, 204) 0px, rgb(255, 96, 226) 45px,rgb(255, 124, 232) 45px, rgb(255, 124, 232) 76px,rgb(255, 69, 221) 76px, rgb(255, 69, 221) 114px,rgb(255, 151, 237) 114px, rgb(255, 151, 237) 127px,rgb(255, 206, 248) 127px, rgb(255, 206, 248) 139px,rgb(255, 179, 243) 139px, rgb(255, 179, 243) 170px);
+  }
+  
+  @media (max-width: 767px) {
+    .hidden-mobile {
+      display: none;
+    }
+  }
+  @media (min-width: 767px) {
+    .hidden-large {
+      display: none;
+    }
+    .sticky-header .navbar-expand-lg .navbar-nav .nav-link {
+        color: azure;
+    }
+  }
