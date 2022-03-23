@@ -59,7 +59,7 @@ strong {
 }
 
 span {
-    color: #e43498;
+    color: #ef476f;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -4708,7 +4708,7 @@ footer:before {
     top: 0;
     width: 100%;
     height: 100%;
-    background: #201297;
+    background: #202C39;
     content: "";
     z-index: -1;
     opacity: 0.3;
@@ -10805,6 +10805,9 @@ faq-info p{
     .hidden-mobile {
       display: none;
     }
+    .price-tag-mobile{
+    bottom: 75% !important;
+}
   }
   @media (min-width: 767px) {
     .hidden-large {
