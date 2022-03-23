@@ -9711,7 +9711,7 @@ faq-info p{
 
     .sticky-header {
         position: fixed;
-        background: transparent;
+        background: white;
         top: 0px;
         z-index: 1000;
         width: 100%;
