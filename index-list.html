@@ -22,9 +22,11 @@
     <link rel="stylesheet" type="text/css"  href="css/lightbox.min.css">
     <link rel="stylesheet" type="text/css"  href="css/jnoty.css">
     <link rel="stylesheet" type="text/css"  href="css/slick.css">
+ 
 
     <!-- Custom stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/sidebar.css">
+    <link rel="stylesheet" type="text/css"  href="css/languages.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" id="style_sheet" href="css/skins/midnight-blue.css">
 
@@ -109,6 +111,22 @@
                     </li>
                 </ul>
                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown" style=" padding: 21px 2px 0px 0px; ">
+                           
+                            <div class="js">
+                                <div class="language-picker js-language-picker" data-trigger-class="btn btn--subtle">
+                                <form action="" class="language-picker__form" >
+                                  <label for="language-picker-select" >Select your language</label>
+                                  <select name="language-picker-select" id="language-picker-select">
+                                    <option lang="de" value="deutsch">Deutsch</option>
+                                    <option lang="en" value="english" selected>English</option>
+                                    <option lang="fr" value="francais">Français</option>
+                                    <option lang="it" value="italiano">Italiano</option>
+                                    <option lang="es" value="español">Español</option>
+                                  </select>
+                                </form>
+                              </div></div>
+                        </li>
                     <li class="nav-item dropdown">
                         <a href="login.html" class="nav-link h-icon">
                             <i class="flaticon-logout"></i>
@@ -196,7 +214,7 @@
     </div>
 </div>
 <section class="hero-wrapper ">
-    <div class="breadcrumb-areas hidden-large">
+    <div class="breadcrumb-areas hidden-large hidden-mobile">
         <div class="col-md-6"><h1 class="intro-title"><span class="pinky">AUTOBENZ</span></h1>
             <h2 class="lead">Research, Compare, Find What's Right for You.</h2></div>
     </div>
@@ -338,40 +356,29 @@
                         <div class="col-lg-5 col-md-5">
                             <div class="car-thumbnail">
                                 <a href="car-details.html" class="car-img">
-                                    <!-- <div class="tag">Featured</div> -->
-                                    <div class="price-box-2"><sup>CHF </sup>800<span>/month</span> </div>
+                                    <div class="price-box-del"><del><sup>CHF </sup>85'000 </del></div>
+                                    <div class="price-box-2 price-tag-mobile"><sup>CHF </sup>84'000 </div>
                                     <img class="d-block w-100" src="img/car/car-5.png" alt="car">
                                 </a>
                                 <div class="carbox-overlap-wrapper">
                                     <div class="overlap-box">
                                         <div class="overlap-btns-area">
-                                            <a class="overlap-btn" data-bs-toggle="modal" data-bs-target="#carOverviewModal">
-                                                <i class="fa fa-eye-slash"></i>
+                                            <a class="overlap-btn compare-btn">
+                                                <i class="fa fa-share"></i>
                                             </a>
                                             <a class="overlap-btn wishlist-btn">
                                                 <i class="fa fa-heart-o"></i>
                                             </a>
-                                            <a class="overlap-btn compare-btn">
-                                                <i class="fa fa-balance-scale"></i>
+                                            <a class="overlap-btn wishlist-btn">
+                                                <i class="fa fa-print"></i>
                                             </a>
-                                            <div class="car-magnify-gallery">
-                                                <a href="img/car/car-5.png" class="overlap-btn" data-sub-html="<h4>Hyundai Santa</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>">
-                                                    <i class="fa fa-expand"></i>
-                                                    <img class="hidden" src="img/car/car-5.png" alt="hidden-img">
-                                                </a>
-                                                <a href="img/car/car-2.png" class="hidden" data-sub-html="<h4>2020 Ford Mustang</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>">
-                                                    <img class="hidden" src="img/car/car-2.png" alt="hidden-img">
-                                                </a>
-                                                <a href="img/car/car-3.png" class="hidden" data-sub-html="<h4>Lexus GS F</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>">
-                                                    <img class="hidden" src="img/car/car-3.png" alt="hidden-img">
-                                                </a>
-                                                <a href="img/car/car-4.png" class="hidden" data-sub-html="<h4>Toyota Prius specs</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>">
-                                                    <img class="hidden" src="img/car/car-4.png" alt="hidden-img">
-                                                </a>
-                                                <a href="img/car/car-1.png" class="hidden" data-sub-html="<h4>Toyota Prius</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>">
-                                                    <img class="hidden" src="img/car/car-1.png" alt="hidden-img">
-                                                </a>
-                                            </div>
+                                            <a class="overlap-btn wishlist-btn" data-bs-toggle="modal" data-bs-target="#carOverviewModal">                                               
+                                                <i class="fa fa-eye"></i>
+                                                <span class="smalltext" style="vertical-align: text-top;text-align: center;margin: 0px 0px 0px -18px;font-size: 10px;">16</span>                          
+                                            </a>
+                                            <a class="overlap-btn wishlist-btn">
+                                                <i class="fa fa-briefcase"></i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -416,40 +423,29 @@
                         <div class="col-lg-5 col-md-5">
                             <div class="car-thumbnail">
                                 <a href="car-details.html" class="car-img">
-                                    <!-- <div class="tag">Featured</div> -->
-                                    <div class="price-box-2"><sup>CHF </sup>720<span>/month</span> </div>
+                                    <div class="price-box-del"><del><sup>CHF </sup>85'000 </del></div>
+                                    <div class="price-box-2 price-tag-mobile"><sup>CHF </sup>84'000 </div>
                                     <img class="d-block w-100" src="img/car/car-1.png" alt="car">
                                 </a>
                                 <div class="carbox-overlap-wrapper">
                                     <div class="overlap-box">
                                         <div class="overlap-btns-area">
-                                            <a class="overlap-btn" data-bs-toggle="modal" data-bs-target="#carOverviewModal">
-                                                <i class="fa fa-eye-slash"></i>
+                                            <a class="overlap-btn compare-btn">
+                                                <i class="fa fa-share"></i>
                                             </a>
                                             <a class="overlap-btn wishlist-btn">
                                                 <i class="fa fa-heart-o"></i>
                                             </a>
-                                            <a class="overlap-btn compare-btn">
-                                                <i class="fa fa-balance-scale"></i>
+                                            <a class="overlap-btn wishlist-btn">
+                                                <i class="fa fa-print"></i>
                                             </a>
-                                            <div class="car-magnify-gallery">
-                                                <a href="img/car/car-1.png" class="overlap-btn" data-sub-html="<h4>Toyota Prius</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>">
-                                                    <i class="fa fa-expand"></i>
-                                                    <img class="hidden" src="img/car/car-1.png" alt="hidden-img">
-                                                </a>
-                                                <a href="img/car/car-2.png" class="hidden" data-sub-html="<h4>2020 Ford Mustang</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>">
-                                                    <img class="hidden" src="img/car/car-2.png" alt="hidden-img">
-                                                </a>
-                                                <a href="img/car/car-3.png" class="hidden" data-sub-html="<h4>Lexus GS F</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>">
-                                                    <img class="hidden" src="img/car/car-3.png" alt="hidden-img">
-                                                </a>
-                                                <a href="img/car/car-4.png" class="hidden" data-sub-html="<h4>Toyota Prius specs</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>">
-                                                    <img class="hidden" src="img/car/car-4.png" alt="hidden-img">
-                                                </a>
-                                                <a href="img/car/car-5.png" class="hidden" data-sub-html="<h4>Hyundai Santa</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>">
-                                                    <img class="hidden" src="img/car/car-5.png" alt="hidden-img">
-                                                </a>
-                                            </div>
+                                            <a class="overlap-btn wishlist-btn" data-bs-toggle="modal" data-bs-target="#carOverviewModal">                                               
+                                                <i class="fa fa-eye"></i>
+                                                <span class="smalltext" style="vertical-align: text-top;text-align: center;margin: 0px 0px 0px -18px;font-size: 10px;">16</span>                          
+                                            </a>
+                                            <a class="overlap-btn wishlist-btn">
+                                                <i class="fa fa-briefcase"></i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -494,40 +490,29 @@
                         <div class="col-lg-5 col-md-5">
                             <div class="car-thumbnail">
                                 <a href="car-details.html" class="car-img">
-                                    <!-- <div class="tag">Featured</div> -->
-                                    <div class="price-box-2"><sup>CHF </sup>730<span>/month</span> </div>
+                                    <div class="price-box-del"><del><sup>CHF </sup>85'000 </del></div>
+                                    <div class="price-box-2 price-tag-mobile"><sup>CHF </sup>84'000 </div>
                                     <img class="d-block w-100" src="img/car/car-2.png" alt="car">
                                 </a>
                                 <div class="carbox-overlap-wrapper">
                                     <div class="overlap-box">
                                         <div class="overlap-btns-area">
-                                            <a class="overlap-btn" data-bs-toggle="modal" data-bs-target="#carOverviewModal">
-                                                <i class="fa fa-eye-slash"></i>
+                                            <a class="overlap-btn compare-btn">
+                                                <i class="fa fa-share"></i>
                                             </a>
                                             <a class="overlap-btn wishlist-btn">
                                                 <i class="fa fa-heart-o"></i>
                                             </a>
-                                            <a class="overlap-btn compare-btn">
-                                                <i class="fa fa-balance-scale"></i>
+                                            <a class="overlap-btn wishlist-btn">
+                                                <i class="fa fa-print"></i>
                                             </a>
-                                            <div class="car-magnify-gallery">
-                                                <a href="img/car/car-2.png" class="overlap-btn" data-sub-html="<h4>2020 Ford Mustang</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>">
-                                                    <i class="fa fa-expand"></i>
-                                                    <img class="hidden" src="img/car/car-2.png" alt="hidden-img">
-                                                </a>
-                                                <a href="img/car/car-3.png" class="hidden" data-sub-html="<h4>Lexus GS F</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>">
-                                                    <img class="hidden" src="img/car/car-3.png" alt="hidden-img">
-                                                </a>
-                                                <a href="img/car/car-5.png" class="hidden" data-sub-html="<h4>Hyundai Santa</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>">
-                                                    <img class="hidden" src="img/car/car-5.png" alt="hidden-img">
-                                                </a>
-                                                <a href="img/car/car-4.png" class="hidden" data-sub-html="<h4>Toyota Prius specs</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>">
-                                                    <img class="hidden" src="img/car/car-4.png" alt="hidden-img">
-                                                </a>
-                                                <a href="img/car/car-6.png" class="hidden" data-sub-html="<h4>Audi Q7 2018</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>">
-                                                    <img class="hidden" src="img/car/car-6.png" alt="hidden-img">
-                                                </a>
-                                            </div>
+                                            <a class="overlap-btn wishlist-btn" data-bs-toggle="modal" data-bs-target="#carOverviewModal">                                               
+                                                <i class="fa fa-eye"></i>
+                                                <span class="smalltext" style="vertical-align: text-top;text-align: center;margin: 0px 0px 0px -18px;font-size: 10px;">16</span>                          
+                                            </a>
+                                            <a class="overlap-btn wishlist-btn">
+                                                <i class="fa fa-briefcase"></i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -572,40 +557,29 @@
                         <div class="col-lg-5 col-md-5">
                             <div class="car-thumbnail">
                                 <a href="car-details.html" class="car-img">
-                                    <!-- <div class="tag">Featured</div> -->
-                                    <div class="price-box-2"><sup>CHF </sup>550<span>/month</span> </div>
+                                    <div class="price-box-del"><del><sup>CHF </sup>85'000 </del></div>
+                                    <div class="price-box-2 price-tag-mobile"><sup>CHF </sup>84'000 </div>
                                     <img class="d-block w-100" src="img/car/car-4.png" alt="car">
                                 </a>
                                 <div class="carbox-overlap-wrapper">
                                     <div class="overlap-box">
                                         <div class="overlap-btns-area">
-                                            <a class="overlap-btn" data-bs-toggle="modal" data-bs-target="#carOverviewModal">
-                                                <i class="fa fa-eye-slash"></i>
+                                            <a class="overlap-btn compare-btn">
+                                                <i class="fa fa-share"></i>
                                             </a>
                                             <a class="overlap-btn wishlist-btn">
                                                 <i class="fa fa-heart-o"></i>
                                             </a>
-                                            <a class="overlap-btn compare-btn">
-                                                <i class="fa fa-balance-scale"></i>
+                                            <a class="overlap-btn wishlist-btn">
+                                                <i class="fa fa-print"></i>
                                             </a>
-                                            <div class="car-magnify-gallery">
-                                                <a href="img/car/car-4.png" class="overlap-btn" data-sub-html="<h4>Toyota Prius specs</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>">
-                                                    <i class="fa fa-expand"></i>
-                                                    <img class="hidden" src="img/car/car-4.png" alt="hidden-img">
-                                                </a>
-                                                <a href="img/car/car-2.png" class="hidden" data-sub-html="<h4>2020 Ford Mustang</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>">
-                                                    <img class="hidden" src="img/car/car-2.png" alt="hidden-img">
-                                                </a>
-                                                <a href="img/car/car-3.png" class="hidden" data-sub-html="<h4>Lexus GS F</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>">
-                                                    <img class="hidden" src="img/car/car-3.png" alt="hidden-img">
-                                                </a>
-                                                <a href="img/car/car-5.png" class="hidden" data-sub-html="<h4>Hyundai Santa</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>">
-                                                    <img class="hidden" src="img/car/car-5.png" alt="hidden-img">
-                                                </a>
-                                                <a href="img/car/car-1.png" class="hidden" data-sub-html="<h4>Toyota Prius</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>">
-                                                    <img class="hidden" src="img/car/car-1.png" alt="hidden-img">
-                                                </a>
-                                            </div>
+                                            <a class="overlap-btn wishlist-btn" data-bs-toggle="modal" data-bs-target="#carOverviewModal">                                               
+                                                <i class="fa fa-eye"></i>
+                                                <span class="smalltext" style="vertical-align: text-top;text-align: center;margin: 0px 0px 0px -18px;font-size: 10px;">16</span>                          
+                                            </a>
+                                            <a class="overlap-btn wishlist-btn">
+                                                <i class="fa fa-briefcase"></i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -650,8 +624,8 @@
                         <div class="col-lg-5 col-md-5">
                             <div class="car-thumbnail">
                                 <a href="car-details.html" class="car-img">
-                                    <!-- <div class="tag">Featured</div> -->
-                                    <div class="price-box-2"><sup>CHF </sup>660<span>/month</span> </div>
+                                    <div class="price-box-del"><del><sup>CHF </sup>85'000 </del></div>
+                                    <div class="price-box-2 price-tag-mobile"><sup>CHF </sup>84'000 </div>
                                     <img class="d-block w-100" src="img/car/car-6.png" alt="car">
                                 </a>
                                 <div class="carbox-overlap-wrapper">
@@ -723,6 +697,7 @@
                         </div>
                     </div>
                 </div>
+                 <!-- Car box 2 end -->
                 <!-- Page navigation start -->
                 <div class="pagination-box p-box-2 text-center">
                     <nav aria-label="Page navigation example">
@@ -1096,6 +1071,7 @@
 <script  src="js/jnoty.js"></script>
 <script  src="js/maps.js"></script>
 <script  src="js/sidebar.js"></script>
+<script  src="js/language.js"></script>
 <script  src="js/app.js"></script>
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->

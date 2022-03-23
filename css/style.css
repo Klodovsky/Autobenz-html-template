@@ -10851,3 +10851,12 @@ faq-info p{
     display: flex;
     align-items: center;
 }
+
+.lan-dropdown-toggle {
+	padding-top: 3px;
+}
+
+.lan-dropdown-menu {
+	min-width: 60px !important;
+	padding: 3px 12px 6px;
+}
