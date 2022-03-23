@@ -10809,7 +10809,8 @@ faq-info p{
     .hidden-large {
       display: none;
     }
-    .sticky-header .navbar-expand-lg .navbar-nav .nav-link {
-        /* color: azure; */
-    }
   }
+  .toggler-btn{
+    width: 69px;
+    height: 50px;
+}
