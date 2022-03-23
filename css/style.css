@@ -10797,7 +10797,7 @@ faq-info p{
     background-repeat: repeat-x;
     background-position: left 0% bottom 0%;
     margin-bottom: 16.5rem;
-    background-image: repeating-linear-gradient(321deg, rgb(243 0 162) 0px, rgb(255 208 246) 45px,rgb(255 0 210) 45px, rgb(255 195 245) 76px,rgb(255, 69, 221) 76px, rgb(255, 69, 221) 114px,rgb(255 239 252) 114px, hsl(311deg 100% 57%) 127px,rgb(241 231 231) 127px, rgb(239 223 223) 139px,rgb(255 249 255) 139px, rgb(226 216 216) 170px);
+    background-image: repeating-linear-gradient(321deg, rgb(228 52 152) 0px, rgb(255 208 246) 45px,rgb(228 52 152) 45px, rgb(255 195 245) 76px,rgb(255 144 207) 76px, rgb(255, 69, 221) 114px,rgb(255 239 252) 114px, hsl(311deg 100% 57%) 127px,rgb(241 231 231) 127px, rgb(239 223 223) 139px,rgb(255 249 255) 139px, rgb(226 216 216) 170px);
 }
   
   @media (max-width: 767px) {
