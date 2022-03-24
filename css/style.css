@@ -10862,7 +10862,11 @@ faq-info p{
         margin-left: -8%;
     }
   }
-  
+  @media only screen and (min-width: 1440px){
+.price-tag-lap-list {
+    bottom: 176px  !important;
+}
+}
   .toggler-btn{
     width: 69px;
     height: 50px;
