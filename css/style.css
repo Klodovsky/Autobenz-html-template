@@ -2866,10 +2866,21 @@ input[type=checkbox]:checked + label:before {
     font-size: 32px;
     font-weight: 700;
     position: absolute;
-    bottom: 170px;
+    bottom: 165px;
     right: 20px;
     z-index: 999;
     color: #2f252b;
+}
+/* Smartphones (portrait) (ie: Galaxy 1) */
+@media only screen and (max-width : 321px) {
+    .price-tag-mobile{
+        bottom: 65% !important;
+    }
+}
+@media only screen and (min-width : 1023px){
+    .price-tag-lap{
+        bottom: 135px !important;
+    }
 }
 
 .car-box-3:hover .car-thumbnail:before {
@@ -10806,7 +10817,7 @@ faq-info p{
       display: none;
     }
     .price-tag-mobile{
-    bottom: 75% !important;
+    bottom: 70% !important;
 }
   }
   @media (min-width: 767px) {
