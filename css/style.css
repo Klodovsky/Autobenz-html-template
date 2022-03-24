@@ -2591,7 +2591,7 @@ input[type=checkbox]:checked + label:before {
     font-size: 32px;
     font-weight: 700;
     position: absolute;
-    bottom: 10px;
+    bottom: 170px;
     right: 20px;
     z-index: 999;
 }
@@ -6793,7 +6793,7 @@ footer:before {
 
 /** Sub Banner start **/
 .sub-banner {
-    background: rgba(0, 0, 0, 0.04) url(../img/img-3.png) top left repeat;
+    background: rgba(0, 0, 0, 0.04) url(../img/img-6.png) top left repeat;
     background-size: cover;
     height: 360px;
     background-position: center center;
