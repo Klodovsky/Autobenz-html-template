@@ -2882,6 +2882,22 @@ input[type=checkbox]:checked + label:before {
         bottom: 135px !important;
     }
 }
+@media only screen and (min-width : 1440px){
+    .price-tag-lap{
+        bottom: 210px !important;
+    }
+}
+@media only screen and (min-width : 768px)and (max-width : 868px){
+    .price-tag-lap{
+        bottom: 160px !important;
+    }
+}
+@media only screen and (max-width : 321px) {
+    .price-tag-mobile{
+        bottom: 65% !important;
+    }
+}
+
 
 .car-box-3:hover .car-thumbnail:before {
     background-image: linear-gradient(358deg, #b53389 8%, #00dc824d 82%)!important;
@@ -10816,15 +10832,37 @@ faq-info p{
     .hidden-mobile {
       display: none;
     }
-    .price-tag-mobile{
-    bottom: 70% !important;
-}
+
   }
   @media (min-width: 767px) {
     .hidden-large {
       display: none;
     }
   }
+  @media (min-width: 375px) and (max-width:400px) {
+    .price-tag-mobile {
+        bottom: 70% !important;
+    }
+  }
+  @media (min-width: 1440px) {
+    .logo-ml{
+        margin-left: -5%;
+    }
+    .navbar-ml{
+        margin-left: -7%;
+    }
+  }
+  @media (max-width: 322px) {
+    .logo-ml{
+        margin-left: -12%;
+    }
+  }
+  @media (min-width: 375px) and (max-width:426px) {
+    .logo-ml{
+        margin-left: -8%;
+    }
+  }
+  
   .toggler-btn{
     width: 69px;
     height: 50px;

@@ -1783,7 +1783,7 @@ u {
 
 .btn--subtle {
     color: #1c1c21;
-    border-color: #ef476f !important;
+    border-color: #ffffff1f !important;
     color: var(--color-contrast-higher);
     border: 1px solid #d3d3d4;
     border: 1px solid var(--color-contrast-low)
@@ -2486,6 +2486,7 @@ u {
 }
 
 .language-picker__flag {
+    color: rgb(38 37 41);
     display: block;
     display: -ms-flexbox;
     display: flex;
@@ -2494,6 +2495,7 @@ u {
 }
 
 .language-picker__flag::before {
+    color: white;
     display: inline-block;
     -ms-flex-negative: 0;
     flex-shrink: 0;
@@ -2508,6 +2510,7 @@ u {
 }
 
 .language-picker__dropdown .language-picker__flag::before {
+    color: white;
     margin-right: .5rem;
     margin-right: var(--space-xs)
 }
