@@ -6820,7 +6820,7 @@ footer:before {
 
 /** Sub Banner start **/
 .sub-banner {
-    background: rgba(0, 0, 0, 0.04) url(../img/img-6.png) top left repeat;
+    background: rgba(0, 0, 0, 0.04) url(../img/pexels-sourav-mishra-3136673.jpg) top left repeat;
     background-size: cover;
     height: 360px;
     background-position: center center;
@@ -10925,4 +10925,14 @@ faq-info p{
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+}
+
+#outer
+{
+    width:100%;
+    text-align: center;
+}
+.inner
+{
+    display: inline-block;
 }
